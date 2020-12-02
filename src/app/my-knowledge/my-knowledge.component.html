@@ -1,0 +1,23 @@
+
+<div class="resume">
+<h2>Знания, навыки, сертификаты</h2>
+    <ul> Навыки работы:
+        <li *ngFor="let experience of myKnowledgeItem.experiences">
+            {{ experience }}
+        </li>
+      </ul>
+
+      <ul> Приобретенные знания в процессе обучения в академии:
+        <li *ngFor="let knowing of myKnowledgeItem.knowledge">
+            {{ knowing }}
+        </li>
+      </ul>
+
+      <ul> Сертификаты:
+        <li *ngFor="let certificate of myKnowledgeItem.certificates">
+            {{ certificates }}
+        </li>
+      </ul>
+
+</div>
+

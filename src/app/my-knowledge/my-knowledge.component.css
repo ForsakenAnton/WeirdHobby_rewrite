@@ -1,0 +1,48 @@
+h2, dl dt, dl dd {
+    text-align: center;
+    margin: auto;
+}
+
+h2 {
+    color: forestgreen;
+    text-shadow: 5px 10px 10px black;
+    margin-bottom: 50px;
+}
+
+ul {
+    color: grey;
+    box-shadow: 0 3px 0 black;
+    /* width: min-content; */ 
+    /* width: 50%; */
+    width: fit-content;
+    padding: 5px 20%;
+
+    list-style-image: url("../../assets/images/ok.png");
+}
+
+ul, ul li {
+    list-style-type: none;
+    text-align: center;
+    margin: auto;
+}
+
+ul li {
+    color: black;
+    /* width: max-content; */
+    box-shadow: 1px 1px 0 black;
+    padding: 5px 20px;
+    border-bottom-right-radius:  5px;
+    border-top-right-radius:  5px;
+}
+
+
+.resume {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    box-shadow: 0 0 10px grey;
+    background-color: rgb(250, 202, 114);
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+}

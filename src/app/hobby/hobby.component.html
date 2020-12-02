@@ -1,0 +1,39 @@
+
+<!-- <h1>{{myHobbyItem.name}}</h1> -->
+<!-- <p>{{myHobbyItem.description}}</p> -->
+
+
+<h1 id="name" (click)="onClickAndCtrl($event)">{{myHobby.name}}</h1>
+<!-- Тестим -->
+<input (keydown)="onDownEnter($event)" hidden id="myHobbyName" type="text" name="myHobby.name" [(ngModel)]="myHobby.name" placeholder="Название хобби"> 
+<h3>Описание</h3>
+<p id="description" (click)="onClickAndCtrl($event)">{{myHobby.description}}</p>
+<textarea (keydown)="onDownEnter($event)" hidden id="myHobbyDescription" type="text" name="myHobby.description" [(ngModel)]="myHobby.description" placeholder="Описание" cols="70" rows="20"></textarea>
+
+<h3 style="margin-top: 50px;">Фотографии с сабжем и особо любимыми мной представителями сочинения музыки душой и руками</h3>
+<div class="partInfo">
+<div class="beforeAfter">
+    <div class="centerImages">
+        <div class="poster" style="float: left;">
+            <p>Сабж хобби</p>
+            <img hoverSelector src="../../assets/images/guitar.jpg" style="margin-right: 20px;">
+        </div>
+        <div class="poster" style="float: left;">
+            <p>Alex de Grassi</p>
+            <img hoverSelector src="../../assets/images/alex de grassi 2.png">
+        </div>
+        <div class="poster" style="float: left;">
+            <p>Kotaro Oshio</p>
+            <img hoverSelector src="../../assets/images/Kotaro Oshio.jpg">
+        </div>
+        <div class="poster" style="float: left;">
+            <p>Tommy Emmanuel</p>
+            <img hoverSelector src="../../assets/images/tommy emmanuel.jpg">
+        </div>
+        <div class="poster" style="float: left;">
+            <p>Mark Knopfler</p>
+            <img hoverSelector src="../../assets/images/mark knopfler.jpg">
+        </div>
+    </div>
+</div>
+</div>

@@ -1,0 +1,40 @@
+h2, dl dt, dl dd {
+    text-align: center;
+    margin: auto;
+}
+
+h2 {
+    color: orangered;
+    text-shadow: 5px 10px 10px grey;
+    margin-bottom: 50px;
+}
+
+dl dt, dl dd {
+    padding: 5px 20%;
+    box-shadow: 0 2px 0 black;
+}
+
+dl dt {
+    width: min-content;
+    color: grey;
+}
+
+dl dd {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 5px 30%;
+    /* margin: 10px 0; */
+
+    box-shadow: 0 0 0 grey;
+}
+
+.resume {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    box-shadow: 0 0 10px grey;
+    background-color: rgb(194, 255, 179);
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+}

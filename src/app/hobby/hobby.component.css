@@ -1,0 +1,53 @@
+/* :host {
+    background-color: black;
+    color: whitesmoke;
+} */
+
+h1, h3 {
+    text-align: center;
+}
+
+
+img {
+  /* height: 25%; */
+  /* width: 25%; */
+  height: 200px;
+  width: auto;
+   /* height: auto;
+  width: 200px; */
+  
+  object-fit: cover;
+}
+
+input {
+    margin: auto;
+    width: 50%;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 100%;
+    font-family: 'sans-serif';
+    border-radius: 10px;
+}
+
+
+.beforeAfter:before, .beforeAfter:after {
+            content: "";
+            display: table;
+            text-align: center;
+            /* margin: auto; */
+        }
+        
+        .beforeAfter:after{
+            clear: both;
+        }
+
+.centerImages {
+    text-align: center;
+}
+
+.poster {
+    box-shadow: 0 0 5px grey;
+}
+

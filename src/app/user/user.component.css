@@ -1,0 +1,35 @@
+h2, dl dt, dl dd {
+    text-align: center;
+    margin: auto;
+}
+
+h2 {
+    color: green;
+    text-shadow: 5px 10px 10px grey;
+    margin-bottom: 50px;
+}
+
+dl dt, dl dd {
+    width: min-content;
+    padding: 5px 20%;
+    box-shadow: -1px -1px 0 grey;
+}
+
+dl dt {
+    color: grey;
+    border-top-left-radius: 5px;
+}
+
+dl dd {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 5px 10%;
+    /* margin: 10px 0; */
+    box-shadow: 1px 1px 0 grey;
+    border-bottom-right-radius: 5px;
+}
+
+.resume {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
